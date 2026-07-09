@@ -1,5 +1,11 @@
 
-
+/* *{
+    margin: 0;
+    padding: 0;
+}
+.common-contain{
+    font-family: inter;
+} */
 #nav-container {
  display: flex;
  Justify-content: space-between;
@@ -18,11 +24,13 @@
 
   text-decoration: none;
   color: #575757;
+  font-family: Arimo;
  
 }
 .common-button {
   color: white;
   background-color: #1D4ED8;
+  font-family: inter;
   padding: 12px;
   border-radius: 10px;
   width: 192px;
@@ -31,3 +39,42 @@
   font-weight:bold;
   cursor: pointer; 
 }
+.hero-button{
+    margin-top: 310px;
+}
+
+#hero-ban{
+    text-align: center;
+    margin: 2px auto;
+  font-family: inter;
+}
+
+#hero-ban0{
+    margin-top: 20px;
+    height: 786px;
+    width: 1551px;
+     background-image: url(./assets/banner.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+#code-connect-create{
+    padding-top: 20px;
+    color: white;
+    font-size: 30px;
+
+    
+}
+#hero-ban-p{
+    color: white;
+  
+}
+#speaker,div,h1{
+      font-family: inter;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+
