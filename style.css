@@ -1,16 +1,16 @@
 
-/* *{
-    margin: 0;
+ *{
     padding: 0;
-     font-family: inter;
-}
-.common-contain{
+    margin: 0;
     font-family: inter;
-} */
+}
+
 #nav-container {
  display: flex;
  Justify-content: space-between;
+ align-items: center;
  padding: 0 60px ;
+ margin: 16px auto;
 }
 #nav-links {
  display: flex;
@@ -41,7 +41,7 @@
   cursor: pointer; 
 }
 .hero-button{
-    margin-top: 310px;
+     margin-top:480px;
 }
 
 #hero-ban{
@@ -51,10 +51,12 @@
 }
 
 #hero-ban0{
+
+    
     margin-top: 20px;
-    height: 786px;
     width: 1551px;
-     background-image: url(./assets/banner.jpg);
+    height:786px;
+    background-image: url(./assets/banner.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -68,8 +70,7 @@
     
 }
 #hero-ban-p{
-    color: white;
-  
+    color: white; 
 }
 #speaker{
  margin-top: 100px;
@@ -77,24 +78,98 @@
 #speaker div h1{
     padding: 20px;
     margin: 20px;
-    font-family: inter;
+    font-size: 44px;
     text-align: center;
     font-weight: bold;
 }
 #speaker-zone{
     display: grid;
     grid-template-columns: repeat(2 ,1fr);
-    gap: 20px;
+    gap: 32px;
    margin: 20px 100px;
 }
 .speaker-boss{
     border: 1px solid #E5E7EB;
     border-radius: 15px;
-    background-color: #FFFFFF;
+    background-color: #E5E7EB;
 }
 .specialist{
     color: #1D4ED8;
+}
+.spacialist-info{
+    
+    padding: 24px;
 
 }
+#price-section div h1{
+     font-size: 44px;
+}
 
+#price-section{  
+    padding: 32px;  
+}
+.price-tittle{
+    text-align: center;
 
+}
+.full-body{
+
+    display: flex;
+    justify-content:space-around;
+    padding: 44px;
+      
+}
+.price-head{
+    color: #888888;
+    margin-top: 20px;
+}
+.price-body ul li{
+    text-align: left;
+    
+    
+}
+.semi-bold{
+    font-weight: 600 ;
+
+}
+.bold{  
+    margin: 0 auto;
+   font-size: 44px;
+   color: #0D1B2A;
+}
+.regular{
+    font-weight: normal;
+}
+.price-button{
+    width: 304px;
+    height: 45px;
+    padding: 11px;
+    font-weight: 600;
+    border: 1px solid ;
+    border-radius: 8px;
+}
+
+.full-body-box{
+    
+    padding: 32px ;
+    border:1px solid whitesmoke ;
+    border-radius: 12px;
+    background-color: #E5E7EB;
+        
+}
+
+.pro-box{
+    background-color: #0D1B2A;
+    color: #FFFFFF;
+    
+}
+.semi-bold-pro{
+    color: #93C5FD;
+}
+.bold-pro{
+    color:#FFFFFF
+
+}
+.pro-button{
+    background-color: #2563EB;
+}
