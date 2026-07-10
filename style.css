@@ -51,16 +51,14 @@
 }
 
 #hero-ban0{
-
-    
     margin-top: 20px;
-    width: 1551px;
-    height:786px;
-    background-image: url(./assets/banner.jpg);
+    width: 100%;
+    min-height: 100vh;
+    background:linear-gradient(to top right , rgba(0, 0, 0,1)0% , rgba(0,0,0,0.8)30%,rgba(0, 0, 0,0.1)50% ,rgba(0, 0, 0,0)100% ) 
+    , url(./assets/banner.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-
 }
 #code-connect-create{
     padding-top: 200px;
@@ -180,7 +178,7 @@
     
 }
 #logo-icon{
-     display: flex;
+    display: flex;
     justify-content: space-between;
 
 }
@@ -192,4 +190,9 @@
     text-decoration: none;
     color: #777777;
     padding-right: 24px;
+}
+.social-media{
+   height: 60px;
+   width: 60px;
+   border-radius: 50%;
 }
