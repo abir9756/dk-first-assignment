@@ -1,0 +1,1 @@
+act like as a senior developer. I am currently learning web development and finish learning html , css . With html & css i am trying to build a web site page about DEVCONF 2026 . I am already build nav bar , banner , speaker's info section , price card section & footer section . now help me to bulid a section after price card section that is best match for this web site page .
