@@ -41,7 +41,7 @@
   cursor: pointer; 
 }
 .hero-button{
-     margin-top:480px;
+     margin-top:300px;
 }
 
 #hero-ban{
@@ -63,11 +63,9 @@
 
 }
 #code-connect-create{
-    padding-top: 20px;
+    padding-top: 200px;
     color: white;
     font-size: 30px;
-
-    
 }
 #hero-ban-p{
     color: white; 
@@ -147,6 +145,7 @@
     font-weight: 600;
     border: 1px solid ;
     border-radius: 8px;
+    cursor: pointer;
 }
 
 .full-body-box{
@@ -172,4 +171,25 @@
 }
 .pro-button{
     background-color: #2563EB;
+}
+
+#about-link{
+    background-color:#0D1B2A ;
+    padding:56px 60px 32px ;
+   
+    
+}
+#logo-icon{
+     display: flex;
+    justify-content: space-between;
+
+}
+#copyright-link{
+    display: flex;
+    justify-content: space-between;
+}
+#copyright-link div a{
+    text-decoration: none;
+    color: #777777;
+    padding-right: 24px;
 }
