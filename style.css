@@ -13,22 +13,22 @@
  padding: 0 60px ;
  margin: 16px auto;
 }
+
 #nav-links {
- display: flex;
- gap: 20px;
+display: flex;
+gap: 20px;
+}
 
+.nav-item {  
+list-style: none;
 }
-.nav-item {
-   
-  list-style: none;
-}
+
 .nav-item a {
-
-  text-decoration: none;
-  color: #575757;
-  font-family: Arimo;
- 
+text-decoration: none;
+color: #575757;
+font-family: Arimo;
 }
+
 .common-button {
   color: white;
   background-color: #1D4ED8;
@@ -41,6 +41,7 @@
   font-weight:bold;
   cursor: pointer; 
 }
+
 .hero-button{
      margin-top:300px;
 }
@@ -61,47 +62,58 @@
     background-position: center;
     background-size: cover;
 }
+
 #code-connect-create{
     padding-top: 200px;
     color: white;
     font-size: 30px;
 }
+
 #hero-ban-p{
     color: white; 
 }
+
 #speaker{
  margin-top: 100px;
 }
+
 #speaker div h1{
     padding: 20px;
-    margin: 20px;
+    margin-top: 80px;
+    margin-bottom: 56px;
     font-size: 44px;
     text-align: center;
     font-weight: bold;
 }
+
 #speaker-zone{
     display: grid;
     grid-template-columns: repeat(2 ,1fr);
     gap: 32px;
    margin: 20px 100px;
 }
+
 .speaker-boss{
     border: 1px solid #E5E7EB;
     border-radius: 15px;
     background-color: #E5E7EB;
 }
+
 .speaker-boss img{
     width: 100%;
     border-radius: 15px;
 }
+
 .specialist{
     color: #1D4ED8;
 }
+
 .spacialist-info{
     
     padding: 24px;
 
 }
+
 #price-section div h1{
      font-size: 44px;
 }
@@ -109,40 +121,47 @@
 #price-section{  
     padding: 32px;  
 }
+
 .price-tittle{
     text-align: center;
 
 }
-.full-body{
 
+.full-body{
     display: flex;
-    
     justify-content:center;
     gap: 20px;
     padding: 44px;
-      
 }
+
 .price-head{
     color: #888888;
     margin-top: 20px;
 }
+
 .price-body ul li{
-    text-align: left;
-    
-    
+    text-align: start;
+    list-style-position: inside; 
 }
+
+li::marker{
+    color: #60a5fa;
+}
+
 .semi-bold{
     font-weight: 600 ;
-
 }
+
 .bold{  
     margin: 0 auto;
    font-size: 44px;
    color: #0D1B2A;
 }
+
 .regular{
     font-weight: normal;
 }
+
 .price-button{
     width: 304px;
     height: 45px;
@@ -154,52 +173,57 @@
 }
 
 .full-body-box{
-    
     padding: 32px ;
     border:1px solid whitesmoke ;
     border-radius: 12px;
-    background-color: #E5E7EB;
-        
+    background-color: #E5E7EB;   
 }
 
 .pro-box{
     background-color: #0D1B2A;
     color: #FFFFFF;
-    
 }
+
 .semi-bold-pro{
     color: #93C5FD;
 }
+
 .bold-pro{
     color:#FFFFFF
-
 }
+
 .pro-button{
     background-color: #2563EB;
+}
+
+#standard-button{
+    color: #2563eb;
+    border: 1px solid #2563eb;
 }
 
 #about-link{
     background-color:#0D1B2A ;
     padding:56px 60px 32px ;
-   
-    
 }
+
 #logo-icon{
     display: flex;
     justify-content: space-between;
 
 }
+
 #copyright-link{
     display: flex;
     justify-content: space-between;
 }
+
 #copyright-link div a{
     text-decoration: none;
     color: #777777;
     padding-right: 24px;
 }
+
 .social-media{
-   
    height: 44px;
    width: 44px;
    border-radius: 50%;
